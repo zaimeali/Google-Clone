@@ -25,7 +25,10 @@ export default function Home() {
             </div>
 
             <div className="home__body">
-
+                <img 
+                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    alt="google logo"
+                />
             </div>
         </div>
     )
