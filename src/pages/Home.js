@@ -4,6 +4,10 @@ import './Home.css'
 // React Router
 import { Link } from 'react-router-dom'
 
+// Icons
+import AppsIcon from '@material-ui/icons/Apps'
+import { Avatar } from '@material-ui/core'
+
 export default function Home() {
     return (
         <div className='home'>
@@ -15,6 +19,8 @@ export default function Home() {
                 <div className="home__headerRight">
                     <Link to="/gmail">Gmail</Link>
                     <Link to="/images">Images</Link>
+                    <AppsIcon />
+                    <Avatar />
                 </div>
             </div>
 
