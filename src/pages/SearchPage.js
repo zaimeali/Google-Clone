@@ -13,7 +13,7 @@ function SearchPage() {
     return (
         <div className="searchPage">
             <div className="searchPage__header">
-                <h1>{term}</h1>
+                <h1>{ term }</h1>
             </div>
             <div className="searchPage__results">
 
