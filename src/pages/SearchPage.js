@@ -32,6 +32,7 @@ function SearchPage() {
 
     // LIVE API CALL
     const { data } = useGoogleSearch(term)
+    // https://clone-91919.web.app/
 
     // const data = Response
 
