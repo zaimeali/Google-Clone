@@ -7,10 +7,10 @@ import { useStateValue } from '../StateProvider'
 import './SearchPage.css'
 
 // Custom Hook
-// import useGoogleSearch from '../useGoogleSearch'
+import useGoogleSearch from '../useGoogleSearch'
 
 // Local Call Response
-import Response from '../response';
+// import Response from '../response';
 
 // React Router
 import { Link } from 'react-router-dom'
@@ -31,9 +31,9 @@ function SearchPage() {
     const [{ term }, dispatch] = useStateValue();
 
     // LIVE API CALL
-    // const { data } = useGoogleSearch(term)
+    const { data } = useGoogleSearch(term)
 
-    const data = Response
+    // const data = Response
 
     console.log(data)
     return (
